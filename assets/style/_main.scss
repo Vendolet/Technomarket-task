@@ -1,0 +1,96 @@
+.main{
+    background-color: $color-white;
+    flex-grow: 1;
+}
+
+.main__wrapper{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.h2{
+    font-size: 3rem;
+    color: $color-blue;
+    font-weight: 400;
+
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    background-color: $color-dark-white;
+    height: 90px;
+}
+
+.sort-field{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-sort-block;
+
+    font-size: 1.5rem;
+}
+
+.sort-field__note{
+    color: black;
+    font-weight: 500;
+
+    padding-left: 40px;
+}
+
+.sort-field__buttons{
+    width: 50%;
+    padding-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-sort{
+    border: none;
+
+    text-decoration: $color-red underline dotted ;
+    color: $color-sort-inactive;
+    cursor: pointer;
+}
+
+.button-sort_active{
+    color: $color-red;
+    text-decoration: none;
+}
+
+.cards-field{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.button{
+    cursor: pointer;
+    background-color: $color-white;
+    border: 3px solid $color-dark-white;
+    border-radius: 6px;
+    height: 50px;
+    min-width: 50px;
+
+    font-size: 1.5rem;
+
+    &:hover{
+        border: 3px solid $color-red;
+        background-color: $color-red;
+
+    }
+}
+
+.button_active{
+    background-color: $color-red;
+}
+
+.pagination__next-page{
+    padding: 0 20px;
+}
+
+
+

@@ -1,0 +1,140 @@
+.header{
+    background-color: $color-dark-white;
+    padding-bottom: 40px;
+}
+
+.header__wrapper{
+    flex-direction: column;
+}
+
+.nav-user{
+    background-color: $color-dark-blue;
+    color: $color-white;
+}
+
+.nav-user__wrapper{
+    height: 40px;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: $color-red;
+    display: flex;
+    align-items: center;
+
+    h1{
+        margin: 0;
+        padding: 0 50px;
+        font-size: 3rem;
+        font-weight: 500;
+    }
+}
+
+.nav-user__button-block{
+    display: flex;
+    
+}
+
+.nav-user__button{
+    color: $color-white;
+    font-size: 1.5rem;
+    padding: 0 20px;
+    background-color: $color-green;
+
+    display: flex;
+    align-items: center;
+
+}
+
+.basket{
+    background-color: $color-red;
+}
+
+.header-info{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.header-info__about{
+    width: 240px;
+    padding-left: 50px;
+    align-self: center;
+
+    color: $color-red;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+
+.header-info__contacts{
+    display: flex;
+    flex-direction: column;
+
+    gap: 7px;
+}
+
+.header-info__phone{
+    color: $color-red;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: bold;
+    border: 5px solid $color-white;
+    text-align: center;
+    padding: 6px 0; 
+}
+
+.header-info__address{
+    color: $color-dark-blue;
+    font-size: 1.5rem;
+}
+
+.header-info__login{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+}
+
+.header-info__user{
+    background-color: $color-white;
+    font-size: 2rem;
+    font-weight: 550;
+    padding: 11px;
+    text-align: center;
+}
+
+.header-info__nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header-info__link{
+    border-bottom: 1px solid $color-dark-blue;
+    font-size: 1.5rem;
+    color: $color-dark-blue;
+    margin-top: 6px;
+}
+
+.nav-pages{
+    display: flex;
+    width: 100%;
+    white-space: nowrap;
+
+    .nav-pages__link{
+        background-color: $color-dark-blue;
+        height: 60px;
+        flex-grow: 1;
+        
+        color: $color-white;
+        font-size: 1.5rem;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover{
+            background-color: $color-blue;
+        }
+    }
+}

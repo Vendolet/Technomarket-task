@@ -1,0 +1,50 @@
+.card{
+    width: 200px;
+    height: 320px;
+    border: 3px solid $color-dark-white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &:hover{
+        background-color: $color-dark-white;
+
+        .card__price{
+            background-color: $color-green;
+        }
+    }
+}
+
+.wrapper-card-img{
+    background-color: white;
+    width: 200px;
+    height: 200px; 
+}
+
+.card__img{
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+
+.card__note{
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: black;
+}
+
+.card__price{
+    color: $color-white;
+    font-size: 1.5rem;
+    background-color: $color-red;
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

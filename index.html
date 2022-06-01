@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Technomart</title>
+</head>
+<body class="page">
+        <header class="header">
+
+            <nav class="nav-user">
+    
+                <div class="wrapper nav-user__wrapper">
+                    <div class="logo">
+                        <h1>ТЕХНОМАРТ</h1>
+                    </div>
+                    <!-- <div class="search">
+                        <textarea class="search__textarea"
+                                  name="search__textarea"
+                                  placeholder="Поиск">
+                        </textarea>
+                    </div> -->
+                    <div class="nav-user__button-block">
+                        <a class="nav-user__button basket" href="#">Корзина</a>
+                        <a class="nav-user__button" href="#">Оформить заказ</a>
+                    </div>
+                </div>
+    
+            </nav>
+    
+            <div class="wrapper header__wrapper">
+    
+                <div class="header-info">
+    
+                    <div class="header-info__about">
+                        Интернет-магазин электроинструмента и строительных материалов
+                    </div>
+    
+                    <div class="header-info__contacts">
+                        <a class="header-info__phone" 
+                           href="tel:+75555555555" >+7 (555) 555-55-55</a>
+                        <a class="header-info__address"
+                           href="#">г. Санкт-Петербург, ул. Строителей, д. 23</a>
+                    </div>
+    
+                    <div class="header-info__login">
+                        <div class="header-info__user">
+                            <span class="header-info__username">Billy Van</span>
+                        </div>
+                        <div class="header-info__nav">
+                            <a class="header-info__link" href="#">Мои заказы</a>
+                            <a class="header-info__link" href="#">Личный кабинет</a>
+                        </div>
+                    </div>
+    
+                </div>
+    
+                <nav class="nav-pages">
+                    <a href="#" class="nav-pages__link">Главная</a>
+                    <a href="#" class="nav-pages__link">Компания</a>
+                    <a href="#" class="nav-pages__link">Каталог</a>
+                    <a href="#" class="nav-pages__link">Новости</a>
+                    <a href="#" class="nav-pages__link">Спецпредложения</a>
+                    <a href="#" class="nav-pages__link">Доставка</a>
+                    <a href="#" class="nav-pages__link">Контакты</a>
+                </nav>
+    
+            </div>
+        </header>
+    
+        <main class="main">
+            <div class="wrapper main__wrapper">
+                <h2 class="h2">ПЕРФОРАТОРЫ</h2>
+    
+                <div class="sort-field">
+                    <p class="sort-field__note">СОРТИРОВКА:</p>
+                    <div class="sort-field__buttons">
+                        <button class="button-sort button-sort_active">ПО ЦЕНЕ</button>
+                        <button class="button-sort">ПО ТИПУ</button>
+                        <button class="button-sort">ПО ФУНКЦИОНАЛЬНОСТИ</button>
+                    </div>
+                </div>
+        
+                <article class="cards-field">
+                    <a href="#">
+                        <div class="card">
+                            <div class="wrapper-card-img">
+                                <img class="card__img" src="./assets/img/Bosch GB 28-23.jpg" 
+                                alt="перфоратор Bosch GB 28-23">
+                            </div>
+                            <p class="card__note">Bosch GB 28-23</p>
+                            <p class="card__price">10000 p</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <div class="wrapper-card-img">
+                                <img class="card__img" src="./assets/img/Bosch GBH 2-26 F.jpg" 
+                                alt="перфоратор Bosch GBH 2-26 F">
+                            </div>
+                            <p class="card__note">Bosch GBH 2-26 F</p>
+                            <p class="card__price">15000 p</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <div class="wrapper-card-img">
+                                <img class="card__img" src="./assets/img/Bosch GBH 240.png" 
+                                alt="перфоратор Bosch GBH 240">
+                            </div>
+                            <p class="card__note">Bosch GBH 240</p>
+                            <p class="card__price">20000 p</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <div class="wrapper-card-img">
+                                <img class="card__img" src="./assets/img/perforator_interskol_p_30_900er.png" 
+                                alt="перфоратор Interskol P-30-900ER">
+                            </div>
+                            <p class="card__note">Interskol P-30-900ER</p>
+                            <p class="card__price">22000 p</p>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="card">
+                            <div class="wrapper-card-img">
+                                <img class="card__img" src="./assets/img/Perforator_Makita_HR2470.jpg" 
+                                alt="перфоратор Makita HR2470">
+                            </div>
+                            <p class="card__note">Makita HR2470</p>
+                            <p class="card__price">23000 p</p>
+                        </div>
+                    </a>
+                </article>
+    
+                <div class="pagination">
+                    <button class="button button_active">1</button>
+                    <button class="button">2</button>
+                    <button class="button">3</button>
+                    <button class="button pagination__next-page">СЛЕДУЮЩАЯ</button>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__license"> 2022 Компания "ТЕХНОМАРТ"<br>Все права защищены</div>
+                <div class="footer__callback">
+                    <div class="footer__email">
+                        Обратная связь:<br>
+                        <span class="important-text">mail@htmlacademy.ru</span>
+                    </div>
+                    <div class="footer__develop">
+                        Разработано - <br>
+                        <span class="important-text">htmlacademy.ru</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>

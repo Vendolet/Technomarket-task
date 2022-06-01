@@ -1,1 +1,305 @@
-/*# sourceMappingURL=style.css.map */
+html {
+  font-size: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  height: 100%;
+}
+
+.page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  width: 1200px;
+  margin: 0 calc((100vw - 1200px) / 2);
+  display: flex;
+}
+
+.header {
+  background-color: rgb(242, 246, 249);
+  padding-bottom: 40px;
+}
+
+.header__wrapper {
+  flex-direction: column;
+}
+
+.nav-user {
+  background-color: rgb(41, 52, 72);
+  color: rgb(255, 255, 255);
+}
+
+.nav-user__wrapper {
+  height: 40px;
+  justify-content: space-between;
+}
+
+.logo {
+  background-color: rgb(238, 54, 66);
+  display: flex;
+  align-items: center;
+}
+.logo h1 {
+  margin: 0;
+  padding: 0 50px;
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.nav-user__button-block {
+  display: flex;
+}
+
+.nav-user__button {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  padding: 0 20px;
+  background-color: rgb(99, 166, 61);
+  display: flex;
+  align-items: center;
+}
+
+.basket {
+  background-color: rgb(238, 54, 66);
+}
+
+.header-info {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.header-info__about {
+  width: 240px;
+  padding-left: 50px;
+  align-self: center;
+  color: rgb(238, 54, 66);
+  font-style: italic;
+  font-size: 1.5rem;
+  font-weight: 550;
+}
+
+.header-info__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.header-info__phone {
+  color: rgb(238, 54, 66);
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: bold;
+  border: 5px solid rgb(255, 255, 255);
+  text-align: center;
+  padding: 6px 0;
+}
+
+.header-info__address {
+  color: rgb(41, 52, 72);
+  font-size: 1.5rem;
+}
+
+.header-info__login {
+  display: flex;
+  width: 300px;
+  flex-direction: column;
+}
+
+.header-info__user {
+  background-color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 550;
+  padding: 11px;
+  text-align: center;
+}
+
+.header-info__nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header-info__link {
+  border-bottom: 1px solid rgb(41, 52, 72);
+  font-size: 1.5rem;
+  color: rgb(41, 52, 72);
+  margin-top: 6px;
+}
+
+.nav-pages {
+  display: flex;
+  width: 100%;
+  white-space: nowrap;
+}
+.nav-pages .nav-pages__link {
+  background-color: rgb(41, 52, 72);
+  height: 60px;
+  flex-grow: 1;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-pages .nav-pages__link:hover {
+  background-color: rgb(50, 66, 92);
+}
+
+.main {
+  background-color: rgb(255, 255, 255);
+  flex-grow: 1;
+}
+
+.main__wrapper {
+  flex-direction: column;
+  justify-content: center;
+}
+
+.h2 {
+  font-size: 3rem;
+  color: rgb(50, 66, 92);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  background-color: rgb(242, 246, 249);
+  height: 90px;
+}
+
+.sort-field {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(247, 242, 236);
+  font-size: 1.5rem;
+}
+
+.sort-field__note {
+  color: black;
+  font-weight: 500;
+  padding-left: 40px;
+}
+
+.sort-field__buttons {
+  width: 50%;
+  padding-right: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-sort {
+  border: none;
+  -webkit-text-decoration: rgb(238, 54, 66) underline dotted;
+          text-decoration: rgb(238, 54, 66) underline dotted;
+  color: rgb(203, 198, 192);
+  cursor: pointer;
+}
+
+.button-sort_active {
+  color: rgb(238, 54, 66);
+  text-decoration: none;
+}
+
+.cards-field {
+  margin: 40px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  border: 3px solid rgb(242, 246, 249);
+  border-radius: 6px;
+  height: 50px;
+  min-width: 50px;
+  font-size: 1.5rem;
+}
+.button:hover {
+  border: 3px solid rgb(238, 54, 66);
+  background-color: rgb(238, 54, 66);
+}
+
+.button_active {
+  background-color: rgb(238, 54, 66);
+}
+
+.pagination__next-page {
+  padding: 0 20px;
+}
+
+.card {
+  width: 200px;
+  height: 320px;
+  border: 3px solid rgb(242, 246, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card:hover {
+  background-color: rgb(242, 246, 249);
+}
+.card:hover .card__price {
+  background-color: rgb(99, 166, 61);
+}
+
+.wrapper-card-img {
+  background-color: white;
+  width: 200px;
+  height: 200px;
+}
+
+.card__img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.card__note {
+  font-size: 1.5rem;
+  font-weight: 550;
+  color: black;
+}
+
+.card__price {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  background-color: rgb(238, 54, 66);
+  width: 140px;
+  height: 40px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: rgb(41, 52, 72);
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  flex-shrink: 0;
+}
+.footer .wrapper {
+  height: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__callback {
+  display: flex;
+  gap: 60px;
+}
+
+.important-text {
+  color: rgb(215, 186, 128);
+}/*# sourceMappingURL=style.css.map */
