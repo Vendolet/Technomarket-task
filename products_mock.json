@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Bosch GB 28-23",
+        "price": 10000,
+        "picture": "./assets/img/Bosch GB 28-23.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bosch GBH 2-26 F",
+        "price": 15000,
+        "picture": "./assets/img/Bosch GBH 2-26 F.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bosch GBH 240",
+        "price": 20000,
+        "picture": "./assets/img/Bosch GBH 240.png"
+    },
+    {
+        "id": 4,
+        "name": "Interskol P-30-900ER",
+        "price": 22000,
+        "picture": "./assets/img/perforator_interskol_p_30_900er.png"
+    },
+    {
+        "id": 5,
+        "name": "Makita HR2470",
+        "price": 23000,
+        "picture": "./assets/img/Perforator_Makita_HR2470.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Interskol 24",
+        "price": 15000,
+        "picture": "./assets/img/interscol 24.jpg"
+    },
+    {
+        "id": 7,
+        "name": "P.I.T. PBH26-C4",
+        "price": 32000,
+        "picture": "./assets/img/P.I.T power.png"
+    },
+    {
+        "id": 8,
+        "name": "Зубр 40-1250",
+        "price": 15000,
+        "picture":"./assets/img/zybr-40-1250.png"
+    },
+    {
+        "id": 9,
+        "name": "Sturm RH2550",
+        "price": 13000,
+        "picture": "./assets/img/sturm-rh2550.jpg"
+    }
+]

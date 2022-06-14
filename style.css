@@ -12,8 +12,10 @@ html {
 }
 
 .wrapper {
-  width: 1200px;
-  margin: 0 calc((100vw - 1200px) / 2);
+  width: 90%;
+  max-width: 1200px;
+  min-width: 1115px;
+  margin: 0 auto;
   display: flex;
 }
 
